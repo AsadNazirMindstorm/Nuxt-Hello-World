@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "knex": "^3.1.0",
+    "nuxt": "^3.12.4",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "@jsonforms/core": "^3.3.0",
+    "@jsonforms/vue": "^3.3.0",
+    "@jsonforms/vue-vanilla": "^3.3.0",
+    "ajv": "^8.16.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "vue": "^3.4.38",
+    "vuetify-nuxt-module": "^0.16.1"
+  }
+}
